@@ -23,6 +23,12 @@ students.delete(:cohort2)
 
 display(students)
 
+total = 0
+
+students.each {|key, value| total += value}
+
+puts total.to_i
+
 
 
 
